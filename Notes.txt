@@ -45,3 +45,98 @@ com.controller
 			@Getmapping("/signup")
 				Signup.jsp 	
 	
+	
+
+------------------------------------------------------------------------	
+ * what is RestAPI
+	
+website --> open 
+user want to open it in mobile also.
+better is mobile application
+
+user want both service
+
+we have to create both as well as IOS.
+development cost --> 3 gani
+
+backend 1
+frontend change
+	||
+	API
+
+It is a url that help to access the data in url or transfer the data in url.
+
+http://abc.com/products
+http://abc.com/tv
+http://abc.com/sony
+
+these are urls.
+u see in both side.
+
+
+input
+output
+    |
+SOAP api
+
+
+1 url is valid in android, web, laptop, ios.
+
+->JSP is out.
+
+by removing the frontend from backend.
+
+we send the data to the page.
+
+standard
+SOAP Api
+
+problem
+xml
+xml
+<users>
+<user>
+<fn></fn>
+</user>
+</users>
+
+
+format
+======
+json --> collection of key and value pair within curley braces.
+[
+{
+     "firstName" : "tejas",
+}
+]
+
+Rest Api
+
+1 input json
+2 output json
+new resource -> user table
+
+new /user POST
+
+imp for interview
+
+before rest api what is the concept? --> SOAP
+rest api vs SOAP
+
+
+test rest API
+popular
+unicorn company software ---> postman
+
+
+
+/product is static
+{productId} is dynamic
+
+url= /product/12
+
+@pathvariable is for read the productId
+than we store that into some variable
+
+
+	
